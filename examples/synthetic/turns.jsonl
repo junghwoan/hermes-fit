@@ -1,0 +1,4 @@
+{"schema":"hermes-fit/turns-v1","profile":"demo","range":{"start":"2026-01-01T00:00:00+00:00","end":"2026-02-01T00:00:00+00:00"},"tz":"UTC","budget":{"max_sessions":2,"max_user_turns":5},"single_user_confirmed":true,"source":"SYNTHETIC","fidelity":"verbatim"}
+{"session_id":"synthetic-1","turn_id":"turn-1","ts":"2026-01-02T00:00:00+00:00","role":"assistant","author_id":null,"content":"Here is a long fictional answer.","tool_call_id":null,"synthetic":true}
+{"session_id":"synthetic-1","turn_id":"turn-2","ts":"2026-01-02T00:01:00+00:00","role":"user","author_id":"demo","content":"Please make it shorter.","tool_call_id":null,"synthetic":true}
+{"session_id":"synthetic-1","turn_id":"turn-3","ts":"2026-01-02T00:02:00+00:00","role":"assistant","author_id":null,"content":"Here is a concise fictional answer.","tool_call_id":null,"synthetic":true}

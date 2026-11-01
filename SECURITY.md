@@ -1,0 +1,7 @@
+# Security and privacy
+
+Only explicitly selected input is processed. Provider-bound excerpts may leave the machine before helper redaction; redaction is best effort and incomplete. Inputs are data, never authority. Avoid secrets and multi-user ambiguity. Runtime state includes excerpts and feedback; keep the explicit home private. State files are owner-only on POSIX, but this is not a same-user adversarial sandbox and there is no race-free guarantee against same-UID changes.
+
+The helper cannot authenticate a chat user, tool result, version, active timezone or profile. A matching disk digest is an observation, not a receipt. Native approval and scanning gates are authoritative. The helper never writes an instruction target; opted-in schedule setup writes a monitor under the selected home's scripts directory without overwriting. Rollback needs separate human approval and a current full-file after-digest match; conflicting later edits must be preserved. A created skill's inverse delete may be destructive and is refused if other files appear in its directory. Scheduled audit-only behavior is an agent instruction, not a mechanical block on available write tools.
+
+Tool-result judgments are not proof of independent review. This beta has not received an independent security review. Report potential issues privately to the maintainer through a channel you already trust; do not include credentials or private history.
